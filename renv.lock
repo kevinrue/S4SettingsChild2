@@ -1,0 +1,35 @@
+{
+  "R": {
+    "Version": "4.2.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      }
+    ]
+  },
+  "Packages": {
+    "S4Settings": {
+      "Package": "S4Settings",
+      "Version": "0.1.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "kevinrue",
+      "RemoteRepo": "S4Settings",
+      "RemoteRef": "new-class",
+      "RemoteSha": "709485bef100e8d5c4831a106897d3faec57e1cd",
+      "Hash": "e41f9f1e1421e4c341d9a0dcc0986fbe"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.17.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "aaf3c7f769695266a2113db67a25148b"
+    }
+  }
+}

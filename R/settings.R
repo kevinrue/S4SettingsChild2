@@ -2,4 +2,6 @@
 #' @export
 S4SettingsChild::exampleSettings
 
-exampleSettings$S4SettingsChild2 = TRUE
+exampleSettings$S4SettingsChild2 <- packageVersion("S4SettingsChild2")
+
+exampleSettings$another_child2_setting <- TRUE

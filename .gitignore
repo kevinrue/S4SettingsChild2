@@ -5,3 +5,5 @@
 .Rprofile
 renv/
 renv.lock
+inst/doc
+docs/
